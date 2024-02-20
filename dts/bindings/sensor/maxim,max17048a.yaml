@@ -1,0 +1,10 @@
+description: Maxim Integrated max17048 Li+ fuel gauge driver sensor
+
+compatible: "maxim,max17048a"
+
+include: ["i2c-device.yaml", "sensor-device.yaml"]
+
+properties:
+  reg:
+    required: true
+    description: device address on i2c bus

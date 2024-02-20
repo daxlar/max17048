@@ -1,0 +1,6 @@
+name: MAX17048A
+build:
+  cmake: .
+  kconfig: Kconfig
+  settings:
+    dts_root: .

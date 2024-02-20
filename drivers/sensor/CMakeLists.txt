@@ -1,0 +1,1 @@
+add_subdirectory_ifdef(CONFIG_MAX17048A max17048a)
